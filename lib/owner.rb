@@ -55,7 +55,6 @@ def sell_pets
   @pets.each do |type, pet_list|
     pet_list.each {|pet| pet.mood = "nervous"}
   end
-  end
   @pets = {:fishes => [], :dogs => [], :cats=> []}
 end
 
