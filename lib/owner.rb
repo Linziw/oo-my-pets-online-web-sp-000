@@ -31,6 +31,8 @@ def buy_fish(name)
   @pets[:fishes] << Fish.new(name)
 end
 
-
+def buy_c(name)
+  @pets[:fishes] << Fish.new(name)
+end
 
 end
