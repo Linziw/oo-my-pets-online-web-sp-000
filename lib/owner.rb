@@ -52,7 +52,7 @@ def feed_fish
 end
 
 def sell_pets
-  
+  @pets = {:fishes => [], :dogs => [], :cats=> []}
 end
 
 end
